@@ -16,7 +16,7 @@ namespace Auvik.Api.Test
 		{
 			var tenants = await AuvikClient
 				.Tenants
-				.ReadMultipleTenantsDetail("warps")
+				.ReadMultipleTenantsDetail("summitbhc")
 				.ConfigureAwait(false);
 
 			tenants.Should().NotBeNull();
