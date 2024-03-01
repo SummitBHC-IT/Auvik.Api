@@ -6,12 +6,12 @@
 		<Authors>Panoramic Data Limited</Authors>
 		<Description>Auvik.Api nuget package</Description>
 		<Copyright>Panoramic Data Limited 2021</Copyright>
-		<PackageProjectUrl>https://github.com/panoramicdata/Auvik.Api</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/SummitBHC-IT/Auvik.Api</PackageProjectUrl>
 		<PackageIcon>Icon.png</PackageIcon>
-		<RepositoryUrl>https://github.com/panoramicdata/Auvik.Api</RepositoryUrl>
+		<RepositoryUrl>https://github.com/SummitBHC-IT/Auvik.Api</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/panoramicdata/Auvik.Api</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/SummitBHC-IT/Auvik.Api</PackageProjectUrl>
 		<ApplicationIcon>Icon.ico</ApplicationIcon>
 		<LangVersion>latest</LangVersion>
 		<PackageReleaseNotes>
