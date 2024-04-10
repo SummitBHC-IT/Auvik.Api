@@ -66,11 +66,11 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceLifecycleResourceObject {\n");
-			sb.Append("  Attributes: ").Append(Attributes).Append("\n");
-			sb.Append("  Id: ").Append(Id).Append("\n");
-			sb.Append("  Links: ").Append(Links).Append("\n");
-			sb.Append("  Relationships: ").Append(Relationships).Append("\n");
-			sb.Append("  Type: ").Append(Type).Append("\n");
+			sb.Append("  Attributes: ").Append(Attributes).Append('\n');
+			sb.Append("  Id: ").Append(Id).Append('\n');
+			sb.Append("  Links: ").Append(Links).Append('\n');
+			sb.Append("  Relationships: ").Append(Relationships).Append('\n');
+			sb.Append("  Type: ").Append(Type).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

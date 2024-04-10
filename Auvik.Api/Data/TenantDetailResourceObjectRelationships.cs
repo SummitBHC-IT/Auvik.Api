@@ -29,8 +29,8 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class TenantDetailResourceObjectRelationships {\n");
-			sb.Append("  Authorizations: ").Append(Authorizations).Append("\n");
-			sb.Append("  Parent: ").Append(Parent).Append("\n");
+			sb.Append("  Authorizations: ").Append(Authorizations).Append('\n');
+			sb.Append("  Parent: ").Append(Parent).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

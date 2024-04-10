@@ -31,8 +31,8 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class ReportPeriod {\n");
-			sb.Append("  FromTime: ").Append(FromTime).Append("\n");
-			sb.Append("  ThruTime: ").Append(ThruTime).Append("\n");
+			sb.Append("  FromTime: ").Append(FromTime).Append('\n');
+			sb.Append("  ThruTime: ").Append(ThruTime).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

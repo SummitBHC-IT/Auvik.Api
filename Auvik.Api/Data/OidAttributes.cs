@@ -40,9 +40,9 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class OidAttributes {\n");
-			sb.Append("  Oid: ").Append(Oid).Append("\n");
-			sb.Append("  OidName: ").Append(OidName).Append("\n");
-			sb.Append("  Value: ").Append(Value).Append("\n");
+			sb.Append("  Oid: ").Append(Oid).Append('\n');
+			sb.Append("  OidName: ").Append(OidName).Append('\n');
+			sb.Append("  Value: ").Append(Value).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

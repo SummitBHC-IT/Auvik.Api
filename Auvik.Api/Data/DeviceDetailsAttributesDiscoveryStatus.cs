@@ -243,10 +243,10 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceDetailsAttributesDiscoveryStatus {\n");
-			sb.Append("  Login: ").Append(Login).Append("\n");
-			sb.Append("  Snmp: ").Append(Snmp).Append("\n");
-			sb.Append("  Vmware: ").Append(Vmware).Append("\n");
-			sb.Append("  Wmi: ").Append(Wmi).Append("\n");
+			sb.Append("  Login: ").Append(Login).Append('\n');
+			sb.Append("  Snmp: ").Append(Snmp).Append('\n');
+			sb.Append("  Vmware: ").Append(Vmware).Append('\n');
+			sb.Append("  Wmi: ").Append(Wmi).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

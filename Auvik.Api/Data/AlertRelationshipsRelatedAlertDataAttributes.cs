@@ -24,7 +24,7 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class AlertRelationshipsRelatedAlertDataAttributes {\n");
-			sb.Append("  Name: ").Append(Name).Append("\n");
+			sb.Append("  Name: ").Append(Name).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

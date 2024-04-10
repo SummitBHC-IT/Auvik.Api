@@ -31,8 +31,8 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceExtendedDetailsDeviceLinks {\n");
-			sb.Append("  Info: ").Append(Info).Append("\n");
-			sb.Append("  Self: ").Append(Self).Append("\n");
+			sb.Append("  Info: ").Append(Info).Append('\n');
+			sb.Append("  Self: ").Append(Self).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

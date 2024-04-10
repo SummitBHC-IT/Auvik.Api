@@ -43,10 +43,10 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class StatisticsAttributes {\n");
-			sb.Append("  Interval: ").Append(Interval).Append("\n");
-			sb.Append("  ReportPeriod: ").Append(ReportPeriod).Append("\n");
-			sb.Append("  StatType: ").Append(StatType).Append("\n");
-			sb.Append("  Stats: ").Append(Stats).Append("\n");
+			sb.Append("  Interval: ").Append(Interval).Append('\n');
+			sb.Append("  ReportPeriod: ").Append(ReportPeriod).Append('\n');
+			sb.Append("  StatType: ").Append(StatType).Append('\n');
+			sb.Append("  Stats: ").Append(Stats).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

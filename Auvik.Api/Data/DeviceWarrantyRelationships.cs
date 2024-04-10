@@ -23,7 +23,7 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceWarrantyRelationships {\n");
-			sb.Append("  Tenant: ").Append(Tenant).Append("\n");
+			sb.Append("  Tenant: ").Append(Tenant).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

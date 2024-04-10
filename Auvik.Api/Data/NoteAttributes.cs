@@ -102,13 +102,13 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class NoteAttributes {\n");
-			sb.Append("  Body: ").Append(Body).Append("\n");
-			sb.Append("  EntityId: ").Append(EntityId).Append("\n");
-			sb.Append("  EntityName: ").Append(EntityName).Append("\n");
-			sb.Append("  EntityType: ").Append(EntityType).Append("\n");
-			sb.Append("  LastModified: ").Append(LastModified).Append("\n");
-			sb.Append("  LastModifiedBy: ").Append(LastModifiedBy).Append("\n");
-			sb.Append("  Title: ").Append(Title).Append("\n");
+			sb.Append("  Body: ").Append(Body).Append('\n');
+			sb.Append("  EntityId: ").Append(EntityId).Append('\n');
+			sb.Append("  EntityName: ").Append(EntityName).Append('\n');
+			sb.Append("  EntityType: ").Append(EntityType).Append('\n');
+			sb.Append("  LastModified: ").Append(LastModified).Append('\n');
+			sb.Append("  LastModifiedBy: ").Append(LastModifiedBy).Append('\n');
+			sb.Append("  Title: ").Append(Title).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

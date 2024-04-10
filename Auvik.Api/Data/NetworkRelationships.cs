@@ -35,9 +35,9 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class NetworkRelationships {\n");
-			sb.Append("  Devices: ").Append(Devices).Append("\n");
-			sb.Append("  NetworkDetail: ").Append(NetworkDetail).Append("\n");
-			sb.Append("  Tenant: ").Append(Tenant).Append("\n");
+			sb.Append("  Devices: ").Append(Devices).Append('\n');
+			sb.Append("  NetworkDetail: ").Append(NetworkDetail).Append('\n');
+			sb.Append("  Tenant: ").Append(Tenant).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

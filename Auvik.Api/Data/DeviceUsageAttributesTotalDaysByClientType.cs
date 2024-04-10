@@ -38,9 +38,9 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceUsageAttributesTotalDaysByClientType {\n");
-			sb.Append("  Essentials: ").Append(Essentials).Append("\n");
-			sb.Append("  Notier: ").Append(Notier).Append("\n");
-			sb.Append("  Performance: ").Append(Performance).Append("\n");
+			sb.Append("  Essentials: ").Append(Essentials).Append('\n');
+			sb.Append("  Notier: ").Append(Notier).Append('\n');
+			sb.Append("  Performance: ").Append(Performance).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

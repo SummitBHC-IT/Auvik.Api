@@ -48,8 +48,8 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class TenantDetailResourceObjectRelationshipsParentData {\n");
-			sb.Append("  Id: ").Append(Id).Append("\n");
-			sb.Append("  Type: ").Append(Type).Append("\n");
+			sb.Append("  Id: ").Append(Id).Append('\n');
+			sb.Append("  Type: ").Append(Type).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

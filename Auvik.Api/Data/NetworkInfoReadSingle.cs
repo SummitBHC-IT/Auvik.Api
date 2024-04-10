@@ -30,8 +30,8 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class NetworkInfoReadSingle {\n");
-			sb.Append("  Data: ").Append(Data).Append("\n");
-			sb.Append("  Included: ").Append(Included).Append("\n");
+			sb.Append("  Data: ").Append(Data).Append('\n');
+			sb.Append("  Included: ").Append(Included).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

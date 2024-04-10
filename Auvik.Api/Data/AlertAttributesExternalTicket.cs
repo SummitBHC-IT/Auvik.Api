@@ -132,8 +132,8 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class AlertAttributesExternalTicket {\n");
-			sb.Append("  Id: ").Append(Id).Append("\n");
-			sb.Append("  System: ").Append(System).Append("\n");
+			sb.Append("  Id: ").Append(Id).Append('\n');
+			sb.Append("  System: ").Append(System).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

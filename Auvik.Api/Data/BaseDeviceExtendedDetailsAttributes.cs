@@ -40,9 +40,9 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class BaseDeviceExtendedDetailsAttributes {\n");
-			sb.Append("  DeviceName: ").Append(DeviceName).Append("\n");
-			sb.Append("  LastModified: ").Append(LastModified).Append("\n");
-			sb.Append("  LastSeenTime: ").Append(LastSeenTime).Append("\n");
+			sb.Append("  DeviceName: ").Append(DeviceName).Append('\n');
+			sb.Append("  LastModified: ").Append(LastModified).Append('\n');
+			sb.Append("  LastSeenTime: ").Append(LastSeenTime).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

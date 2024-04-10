@@ -97,10 +97,10 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceDetailsRelationshipsComponentsAttributes {\n");
-			sb.Append("  ComponentName: ").Append(ComponentName).Append("\n");
-			sb.Append("  ComponentType: ").Append(ComponentType).Append("\n");
-			sb.Append("  ConfigurationId: ").Append(ConfigurationId).Append("\n");
-			sb.Append("  ConfigurationIndex: ").Append(ConfigurationIndex).Append("\n");
+			sb.Append("  ComponentName: ").Append(ComponentName).Append('\n');
+			sb.Append("  ComponentType: ").Append(ComponentType).Append('\n');
+			sb.Append("  ConfigurationId: ").Append(ConfigurationId).Append('\n');
+			sb.Append("  ConfigurationIndex: ").Append(ConfigurationIndex).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

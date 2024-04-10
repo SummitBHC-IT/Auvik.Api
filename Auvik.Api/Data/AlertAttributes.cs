@@ -99,6 +99,13 @@ namespace Auvik.Api.Data
 		public StatusEnum? Status { get; set; }
 
 		/// <summary>
+		/// ID that groups related alerts.
+		/// </summary>
+		/// <value>The ID of the alert definition.</value>
+		[DataMember(Name = "alertDefinitionId", EmitDefaultValue = false)]
+		public string AlertDefinitionId {get; set;}
+
+		/// <summary>
 		/// This description of the alert
 		/// </summary>
 		/// <value>This description of the alert</value>
@@ -155,15 +162,16 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class AlertAttributes {\n");
-			sb.Append("  Description: ").Append(Description).Append("\n");
-			sb.Append("  DetectedOn: ").Append(DetectedOn).Append("\n");
-			sb.Append("  Dismissed: ").Append(Dismissed).Append("\n");
-			sb.Append("  Dispatched: ").Append(Dispatched).Append("\n");
-			sb.Append("  ExternalTicket: ").Append(ExternalTicket).Append("\n");
-			sb.Append("  Name: ").Append(Name).Append("\n");
-			sb.Append("  Severity: ").Append(Severity).Append("\n");
-			sb.Append("  SpecificationId: ").Append(SpecificationId).Append("\n");
-			sb.Append("  Status: ").Append(Status).Append("\n");
+			sb.Append("  Description: ").Append(Description).Append('\n');
+			sb.Append("  DetectedOn: ").Append(DetectedOn).Append('\n');
+			sb.Append("  Dismissed: ").Append(Dismissed).Append('\n');
+			sb.Append("  Dispatched: ").Append(Dispatched).Append('\n');
+			sb.Append("  ExternalTicket: ").Append(ExternalTicket).Append('\n');
+			sb.Append("  Name: ").Append(Name).Append('\n');
+			sb.Append("  Severity: ").Append(Severity).Append('\n');
+			sb.Append("  SpecificationId: ").Append(SpecificationId).Append('\n');
+			sb.Append("  Status: ").Append(Status).Append('\n');
+			sb.Append("  AlertDefinitionId: ").Append(AlertDefinitionId).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

@@ -38,9 +38,9 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class ClientUsageResourceObjectLinks {\n");
-			sb.Append("  Dashboard: ").Append(Dashboard).Append("\n");
-			sb.Append("  Self: ").Append(Self).Append("\n");
-			sb.Append("  TenantRecord: ").Append(TenantRecord).Append("\n");
+			sb.Append("  Dashboard: ").Append(Dashboard).Append('\n');
+			sb.Append("  Self: ").Append(Self).Append('\n');
+			sb.Append("  TenantRecord: ").Append(TenantRecord).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

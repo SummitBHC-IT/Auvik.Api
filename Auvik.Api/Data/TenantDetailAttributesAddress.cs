@@ -59,12 +59,12 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class TenantDetailAttributesAddress {\n");
-			sb.Append("  StateProvince: ").Append(StateProvince).Append("\n");
-			sb.Append("  ZIPPostalCode: ").Append(ZIPPostalCode).Append("\n");
-			sb.Append("  Address1: ").Append(Address1).Append("\n");
-			sb.Append("  Address2: ").Append(Address2).Append("\n");
-			sb.Append("  City: ").Append(City).Append("\n");
-			sb.Append("  Country: ").Append(Country).Append("\n");
+			sb.Append("  StateProvince: ").Append(StateProvince).Append('\n');
+			sb.Append("  ZIPPostalCode: ").Append(ZIPPostalCode).Append('\n');
+			sb.Append("  Address1: ").Append(Address1).Append('\n');
+			sb.Append("  Address2: ").Append(Address2).Append('\n');
+			sb.Append("  City: ").Append(City).Append('\n');
+			sb.Append("  Country: ").Append(Country).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

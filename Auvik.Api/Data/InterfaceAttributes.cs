@@ -364,16 +364,16 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class InterfaceAttributes {\n");
-			sb.Append("  AdminStatus: ").Append(AdminStatus).Append("\n");
-			sb.Append("  CustomConnections: ").Append(CustomConnections).Append("\n");
-			sb.Append("  Duplex: ").Append(Duplex).Append("\n");
-			sb.Append("  InterfaceName: ").Append(InterfaceName).Append("\n");
-			sb.Append("  InterfaceType: ").Append(InterfaceType).Append("\n");
-			sb.Append("  IpAddresses: ").Append(IpAddresses).Append("\n");
-			sb.Append("  LastModified: ").Append(LastModified).Append("\n");
-			sb.Append("  MacAddress: ").Append(MacAddress).Append("\n");
-			sb.Append("  NegotiatedSpeed: ").Append(NegotiatedSpeed).Append("\n");
-			sb.Append("  OperationalStatus: ").Append(OperationalStatus).Append("\n");
+			sb.Append("  AdminStatus: ").Append(AdminStatus).Append('\n');
+			sb.Append("  CustomConnections: ").Append(CustomConnections).Append('\n');
+			sb.Append("  Duplex: ").Append(Duplex).Append('\n');
+			sb.Append("  InterfaceName: ").Append(InterfaceName).Append('\n');
+			sb.Append("  InterfaceType: ").Append(InterfaceType).Append('\n');
+			sb.Append("  IpAddresses: ").Append(IpAddresses).Append('\n');
+			sb.Append("  LastModified: ").Append(LastModified).Append('\n');
+			sb.Append("  MacAddress: ").Append(MacAddress).Append('\n');
+			sb.Append("  NegotiatedSpeed: ").Append(NegotiatedSpeed).Append('\n');
+			sb.Append("  OperationalStatus: ").Append(OperationalStatus).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

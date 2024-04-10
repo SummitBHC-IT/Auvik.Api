@@ -58,12 +58,12 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class ComponentStatisticsRelationshipsComponentData {\n");
-			sb.Append("  ComponentName: ").Append(ComponentName).Append("\n");
-			sb.Append("  ComponentType: ").Append(ComponentType).Append("\n");
-			sb.Append("  Id: ").Append(Id).Append("\n");
-			sb.Append("  Links: ").Append(Links).Append("\n");
-			sb.Append("  ParentDevice: ").Append(ParentDevice).Append("\n");
-			sb.Append("  Type: ").Append(Type).Append("\n");
+			sb.Append("  ComponentName: ").Append(ComponentName).Append('\n');
+			sb.Append("  ComponentType: ").Append(ComponentType).Append('\n');
+			sb.Append("  Id: ").Append(Id).Append('\n');
+			sb.Append("  Links: ").Append(Links).Append('\n');
+			sb.Append("  ParentDevice: ").Append(ParentDevice).Append('\n');
+			sb.Append("  Type: ").Append(Type).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

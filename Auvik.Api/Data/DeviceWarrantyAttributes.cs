@@ -68,13 +68,13 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceWarrantyAttributes {\n");
-			sb.Append("  ContractRenewalAvailability: ").Append(ContractRenewalAvailability).Append("\n");
-			sb.Append("  DeviceName: ").Append(DeviceName).Append("\n");
-			sb.Append("  RecommendedSoftwareVersion: ").Append(RecommendedSoftwareVersion).Append("\n");
-			sb.Append("  ServiceAttachmentStatus: ").Append(ServiceAttachmentStatus).Append("\n");
-			sb.Append("  ServiceCoverageStatus: ").Append(ServiceCoverageStatus).Append("\n");
-			sb.Append("  WarrantyCoverageStatus: ").Append(WarrantyCoverageStatus).Append("\n");
-			sb.Append("  WarrantyExpirationDate: ").Append(WarrantyExpirationDate).Append("\n");
+			sb.Append("  ContractRenewalAvailability: ").Append(ContractRenewalAvailability).Append('\n');
+			sb.Append("  DeviceName: ").Append(DeviceName).Append('\n');
+			sb.Append("  RecommendedSoftwareVersion: ").Append(RecommendedSoftwareVersion).Append('\n');
+			sb.Append("  ServiceAttachmentStatus: ").Append(ServiceAttachmentStatus).Append('\n');
+			sb.Append("  ServiceCoverageStatus: ").Append(ServiceCoverageStatus).Append('\n');
+			sb.Append("  WarrantyCoverageStatus: ").Append(WarrantyCoverageStatus).Append('\n');
+			sb.Append("  WarrantyExpirationDate: ").Append(WarrantyExpirationDate).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

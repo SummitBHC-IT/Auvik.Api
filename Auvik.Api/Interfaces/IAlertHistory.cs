@@ -42,9 +42,9 @@ namespace Auvik.Api.Interfaces
 			[AliasAs("filter[detectedTimeAfter]")] string filter_detectedTimeAfter = null,
 			[AliasAs("filter[detectedTimeBefore]")] string filter_detectedTimeBefore = null,
 			[AliasAs("tenants")] string tenants = null,
-			[AliasAs("page[first]")] decimal? page_first = null,
+			[AliasAs("page[first]")] int? page_first = null,
 			[AliasAs("page[after]")] string page_after = null,
-			[AliasAs("page[last]")] decimal? page_last = null,
+			[AliasAs("page[last]")] int? page_last = null,
 			[AliasAs("page[before]")] string page_before = null,
 			CancellationToken? cancellationToken = null
 			);

@@ -203,15 +203,15 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class AuditAttributes {\n");
-			sb.Append("  Action: ").Append(Action).Append("\n");
-			sb.Append("  Category: ").Append(Category).Append("\n");
-			sb.Append("  Cause: ").Append(Cause).Append("\n");
-			sb.Append("  Data: ").Append(Data).Append("\n");
-			sb.Append("  DateStarted: ").Append(DateStarted).Append("\n");
-			sb.Append("  Direction: ").Append(Direction).Append("\n");
-			sb.Append("  LastActive: ").Append(LastActive).Append("\n");
-			sb.Append("  Status: ").Append(Status).Append("\n");
-			sb.Append("  User: ").Append(User).Append("\n");
+			sb.Append("  Action: ").Append(Action).Append('\n');
+			sb.Append("  Category: ").Append(Category).Append('\n');
+			sb.Append("  Cause: ").Append(Cause).Append('\n');
+			sb.Append("  Data: ").Append(Data).Append('\n');
+			sb.Append("  DateStarted: ").Append(DateStarted).Append('\n');
+			sb.Append("  Direction: ").Append(Direction).Append('\n');
+			sb.Append("  LastActive: ").Append(LastActive).Append('\n');
+			sb.Append("  Status: ").Append(Status).Append('\n');
+			sb.Append("  User: ").Append(User).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

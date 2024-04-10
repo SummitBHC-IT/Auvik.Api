@@ -25,7 +25,7 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class BasicError {\n");
-			sb.Append("  Errors: ").Append(Errors).Append("\n");
+			sb.Append("  Errors: ").Append(Errors).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

@@ -56,12 +56,12 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceUsageAttributes {\n");
-			sb.Append("  AverageDays: ").Append(AverageDays).Append("\n");
-			sb.Append("  AverageDaysByClientType: ").Append(AverageDaysByClientType).Append("\n");
-			sb.Append("  DeviceName: ").Append(DeviceName).Append("\n");
-			sb.Append("  TotalDays: ").Append(TotalDays).Append("\n");
-			sb.Append("  TotalDaysByClientType: ").Append(TotalDaysByClientType).Append("\n");
-			sb.Append("  UsagePeriod: ").Append(UsagePeriod).Append("\n");
+			sb.Append("  AverageDays: ").Append(AverageDays).Append('\n');
+			sb.Append("  AverageDaysByClientType: ").Append(AverageDaysByClientType).Append('\n');
+			sb.Append("  DeviceName: ").Append(DeviceName).Append('\n');
+			sb.Append("  TotalDays: ").Append(TotalDays).Append('\n');
+			sb.Append("  TotalDaysByClientType: ").Append(TotalDaysByClientType).Append('\n');
+			sb.Append("  UsagePeriod: ").Append(UsagePeriod).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

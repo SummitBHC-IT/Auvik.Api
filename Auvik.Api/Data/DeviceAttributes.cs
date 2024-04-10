@@ -453,18 +453,18 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceAttributes {\n");
-			sb.Append("  Description: ").Append(Description).Append("\n");
-			sb.Append("  DeviceName: ").Append(DeviceName).Append("\n");
-			sb.Append("  DeviceType: ").Append(DeviceType).Append("\n");
-			sb.Append("  FirmwareVersion: ").Append(FirmwareVersion).Append("\n");
-			sb.Append("  IpAddresses: ").Append(IpAddresses).Append("\n");
-			sb.Append("  LastModified: ").Append(LastModified).Append("\n");
-			sb.Append("  LastSeenTime: ").Append(LastSeenTime).Append("\n");
-			sb.Append("  MakeModel: ").Append(MakeModel).Append("\n");
-			sb.Append("  OnlineStatus: ").Append(OnlineStatus).Append("\n");
-			sb.Append("  SerialNumber: ").Append(SerialNumber).Append("\n");
-			sb.Append("  SoftwareVersion: ").Append(SoftwareVersion).Append("\n");
-			sb.Append("  VendorName: ").Append(VendorName).Append("\n");
+			sb.Append("  Description: ").Append(Description).Append('\n');
+			sb.Append("  DeviceName: ").Append(DeviceName).Append('\n');
+			sb.Append("  DeviceType: ").Append(DeviceType).Append('\n');
+			sb.Append("  FirmwareVersion: ").Append(FirmwareVersion).Append('\n');
+			sb.Append("  IpAddresses: ").Append(IpAddresses).Append('\n');
+			sb.Append("  LastModified: ").Append(LastModified).Append('\n');
+			sb.Append("  LastSeenTime: ").Append(LastSeenTime).Append('\n');
+			sb.Append("  MakeModel: ").Append(MakeModel).Append('\n');
+			sb.Append("  OnlineStatus: ").Append(OnlineStatus).Append('\n');
+			sb.Append("  SerialNumber: ").Append(SerialNumber).Append('\n');
+			sb.Append("  SoftwareVersion: ").Append(SoftwareVersion).Append('\n');
+			sb.Append("  VendorName: ").Append(VendorName).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

@@ -61,8 +61,8 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class TenantAttributes {\n");
-			sb.Append("  DomainPrefix: ").Append(DomainPrefix).Append("\n");
-			sb.Append("  TenantType: ").Append(TenantType).Append("\n");
+			sb.Append("  DomainPrefix: ").Append(DomainPrefix).Append('\n');
+			sb.Append("  TenantType: ").Append(TenantType).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

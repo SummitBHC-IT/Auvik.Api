@@ -24,7 +24,7 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class ServiceStatisticsRelationshipsServiceDataAttributes {\n");
-			sb.Append("  ServiceName: ").Append(ServiceName).Append("\n");
+			sb.Append("  ServiceName: ").Append(ServiceName).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

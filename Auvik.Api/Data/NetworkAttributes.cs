@@ -139,11 +139,11 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class NetworkAttributes {\n");
-			sb.Append("  Description: ").Append(Description).Append("\n");
-			sb.Append("  LastModified: ").Append(LastModified).Append("\n");
-			sb.Append("  NetworkName: ").Append(NetworkName).Append("\n");
-			sb.Append("  NetworkType: ").Append(NetworkType).Append("\n");
-			sb.Append("  ScanStatus: ").Append(ScanStatus).Append("\n");
+			sb.Append("  Description: ").Append(Description).Append('\n');
+			sb.Append("  LastModified: ").Append(LastModified).Append('\n');
+			sb.Append("  NetworkName: ").Append(NetworkName).Append('\n');
+			sb.Append("  NetworkType: ").Append(NetworkType).Append('\n');
+			sb.Append("  ScanStatus: ").Append(ScanStatus).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

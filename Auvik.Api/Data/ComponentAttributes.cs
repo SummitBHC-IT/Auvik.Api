@@ -126,10 +126,10 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class ComponentAttributes {\n");
-			sb.Append("  ComponentName: ").Append(ComponentName).Append("\n");
-			sb.Append("  ComponentType: ").Append(ComponentType).Append("\n");
-			sb.Append("  CurrentStatus: ").Append(CurrentStatus).Append("\n");
-			sb.Append("  LastModified: ").Append(LastModified).Append("\n");
+			sb.Append("  ComponentName: ").Append(ComponentName).Append('\n');
+			sb.Append("  ComponentType: ").Append(ComponentType).Append('\n');
+			sb.Append("  CurrentStatus: ").Append(CurrentStatus).Append('\n');
+			sb.Append("  LastModified: ").Append(LastModified).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

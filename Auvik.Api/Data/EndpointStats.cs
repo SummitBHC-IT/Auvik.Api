@@ -39,9 +39,9 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class EndpointStats {\n");
-			sb.Append("  Id: ").Append(Id).Append("\n");
-			sb.Append("  IpAddress: ").Append(IpAddress).Append("\n");
-			sb.Append("  Stats: ").Append(Stats).Append("\n");
+			sb.Append("  Id: ").Append(Id).Append('\n');
+			sb.Append("  IpAddress: ").Append(IpAddress).Append('\n');
+			sb.Append("  Stats: ").Append(Stats).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

@@ -49,11 +49,11 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class ClientUsageAttributes {\n");
-			sb.Append("  BillableDays: ").Append(BillableDays).Append("\n");
-			sb.Append("  ClientUsage: ").Append(ClientUsage).Append("\n");
-			sb.Append("  DeviceUsage: ").Append(DeviceUsage).Append("\n");
-			sb.Append("  DomainPrefix: ").Append(DomainPrefix).Append("\n");
-			sb.Append("  UsagePeriod: ").Append(UsagePeriod).Append("\n");
+			sb.Append("  BillableDays: ").Append(BillableDays).Append('\n');
+			sb.Append("  ClientUsage: ").Append(ClientUsage).Append('\n');
+			sb.Append("  DeviceUsage: ").Append(DeviceUsage).Append('\n');
+			sb.Append("  DomainPrefix: ").Append(DomainPrefix).Append('\n');
+			sb.Append("  UsagePeriod: ").Append(UsagePeriod).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

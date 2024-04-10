@@ -24,7 +24,7 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceUsageRelationshipsClientDataAttributes {\n");
-			sb.Append("  DomainPrefix: ").Append(DomainPrefix).Append("\n");
+			sb.Append("  DomainPrefix: ").Append(DomainPrefix).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

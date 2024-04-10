@@ -42,10 +42,10 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceInfoReadMultiple {\n");
-			sb.Append("  Data: ").Append(Data).Append("\n");
-			sb.Append("  Included: ").Append(Included).Append("\n");
-			sb.Append("  Links: ").Append(Links).Append("\n");
-			sb.Append("  Meta: ").Append(Meta).Append("\n");
+			sb.Append("  Data: ").Append(Data).Append('\n');
+			sb.Append("  Included: ").Append(Included).Append('\n');
+			sb.Append("  Links: ").Append(Links).Append('\n');
+			sb.Append("  Meta: ").Append(Meta).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

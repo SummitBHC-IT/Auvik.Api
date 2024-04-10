@@ -33,8 +33,8 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceDetailsRelationshipsInterfacesAttributes {\n");
-			sb.Append("  InterfaceName: ").Append(InterfaceName).Append("\n");
-			sb.Append("  MacAddress: ").Append(MacAddress).Append("\n");
+			sb.Append("  InterfaceName: ").Append(InterfaceName).Append('\n');
+			sb.Append("  MacAddress: ").Append(MacAddress).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

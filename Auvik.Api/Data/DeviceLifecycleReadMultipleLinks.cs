@@ -45,10 +45,10 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceLifecycleReadMultipleLinks {\n");
-			sb.Append("  First: ").Append(First).Append("\n");
-			sb.Append("  Last: ").Append(Last).Append("\n");
-			sb.Append("  Next: ").Append(Next).Append("\n");
-			sb.Append("  Prev: ").Append(Prev).Append("\n");
+			sb.Append("  First: ").Append(First).Append('\n');
+			sb.Append("  Last: ").Append(Last).Append('\n');
+			sb.Append("  Next: ").Append(Next).Append('\n');
+			sb.Append("  Prev: ").Append(Prev).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

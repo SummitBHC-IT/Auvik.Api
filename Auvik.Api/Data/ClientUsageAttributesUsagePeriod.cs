@@ -38,9 +38,9 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class ClientUsageAttributesUsagePeriod {\n");
-			sb.Append("  EndDate: ").Append(EndDate).Append("\n");
-			sb.Append("  LengthInDays: ").Append(LengthInDays).Append("\n");
-			sb.Append("  StartDate: ").Append(StartDate).Append("\n");
+			sb.Append("  EndDate: ").Append(EndDate).Append('\n');
+			sb.Append("  LengthInDays: ").Append(LengthInDays).Append('\n');
+			sb.Append("  StartDate: ").Append(StartDate).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

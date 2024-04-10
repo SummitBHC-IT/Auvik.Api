@@ -259,11 +259,11 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceLifecycleAttributes {\n");
-			sb.Append("  DeviceName: ").Append(DeviceName).Append("\n");
-			sb.Append("  LastSupportStatus: ").Append(LastSupportStatus).Append("\n");
-			sb.Append("  SalesAvailability: ").Append(SalesAvailability).Append("\n");
-			sb.Append("  SecuritySoftwareMaintenanceStatus: ").Append(SecuritySoftwareMaintenanceStatus).Append("\n");
-			sb.Append("  SoftwareMaintenanceStatus: ").Append(SoftwareMaintenanceStatus).Append("\n");
+			sb.Append("  DeviceName: ").Append(DeviceName).Append('\n');
+			sb.Append("  LastSupportStatus: ").Append(LastSupportStatus).Append('\n');
+			sb.Append("  SalesAvailability: ").Append(SalesAvailability).Append('\n');
+			sb.Append("  SecuritySoftwareMaintenanceStatus: ").Append(SecuritySoftwareMaintenanceStatus).Append('\n');
+			sb.Append("  SoftwareMaintenanceStatus: ").Append(SoftwareMaintenanceStatus).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

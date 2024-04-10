@@ -22,11 +22,8 @@ namespace Auvik.Api
 		public AuvikClient(AuvikClientOptions auvikClientOptions)
 		{
 			ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-			if (auvikClientOptions == null)
-			{
-				throw new ArgumentNullException(nameof(auvikClientOptions));
-			}
-			auvikClientOptions.Validate();
+            ArgumentNullException.ThrowIfNull(auvikClientOptions);
+            auvikClientOptions.Validate();
 
 			_disposeHttpClient = auvikClientOptions.HttpClient is null;
 			_httpClient = auvikClientOptions.HttpClient ?? new HttpClient(new AuthenticatedHttpClientHandler(auvikClientOptions))

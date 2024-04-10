@@ -35,9 +35,9 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class AlertRelationships {\n");
-			sb.Append("  Entity: ").Append(Entity).Append("\n");
-			sb.Append("  RelatedAlert: ").Append(RelatedAlert).Append("\n");
-			sb.Append("  Tenant: ").Append(Tenant).Append("\n");
+			sb.Append("  Entity: ").Append(Entity).Append('\n');
+			sb.Append("  RelatedAlert: ").Append(RelatedAlert).Append('\n');
+			sb.Append("  Tenant: ").Append(Tenant).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

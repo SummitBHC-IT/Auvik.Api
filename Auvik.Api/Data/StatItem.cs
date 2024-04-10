@@ -53,11 +53,11 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class StatItem {\n");
-			sb.Append("  Data: ").Append(Data).Append("\n");
-			sb.Append("  Index: ").Append(Index).Append("\n");
-			sb.Append("  Legend: ").Append(Legend).Append("\n");
-			sb.Append("  Name: ").Append(Name).Append("\n");
-			sb.Append("  Unit: ").Append(Unit).Append("\n");
+			sb.Append("  Data: ").Append(Data).Append('\n');
+			sb.Append("  Index: ").Append(Index).Append('\n');
+			sb.Append("  Legend: ").Append(Legend).Append('\n');
+			sb.Append("  Name: ").Append(Name).Append('\n');
+			sb.Append("  Unit: ").Append(Unit).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

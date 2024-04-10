@@ -43,10 +43,10 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class ClientUsageAttributesDeviceUsage {\n");
-			sb.Append("  AverageDays: ").Append(AverageDays).Append("\n");
-			sb.Append("  AverageDaysByClientType: ").Append(AverageDaysByClientType).Append("\n");
-			sb.Append("  TotalDays: ").Append(TotalDays).Append("\n");
-			sb.Append("  TotalDaysByClientType: ").Append(TotalDaysByClientType).Append("\n");
+			sb.Append("  AverageDays: ").Append(AverageDays).Append('\n');
+			sb.Append("  AverageDaysByClientType: ").Append(AverageDaysByClientType).Append('\n');
+			sb.Append("  TotalDays: ").Append(TotalDays).Append('\n');
+			sb.Append("  TotalDaysByClientType: ").Append(TotalDaysByClientType).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

@@ -91,9 +91,9 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceDetailsAttributes {\n");
-			sb.Append("  DiscoveryStatus: ").Append(DiscoveryStatus).Append("\n");
-			sb.Append("  ManageStatus: ").Append(ManageStatus).Append("\n");
-			sb.Append("  TrafficInsightsStatus: ").Append(TrafficInsightsStatus).Append("\n");
+			sb.Append("  DiscoveryStatus: ").Append(DiscoveryStatus).Append('\n');
+			sb.Append("  ManageStatus: ").Append(ManageStatus).Append('\n');
+			sb.Append("  TrafficInsightsStatus: ").Append(TrafficInsightsStatus).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

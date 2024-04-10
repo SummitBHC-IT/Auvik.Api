@@ -33,8 +33,8 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class DeviceDetailsRelationshipsConfigurationsAttributes {\n");
-			sb.Append("  BackupTime: ").Append(BackupTime).Append("\n");
-			sb.Append("  IsRunning: ").Append(IsRunning).Append("\n");
+			sb.Append("  BackupTime: ").Append(BackupTime).Append('\n');
+			sb.Append("  IsRunning: ").Append(IsRunning).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

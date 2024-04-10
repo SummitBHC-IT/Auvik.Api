@@ -24,7 +24,7 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class Meta {\n");
-			sb.Append("  TotalPages: ").Append(TotalPages).Append("\n");
+			sb.Append("  TotalPages: ").Append(TotalPages).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

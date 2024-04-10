@@ -98,11 +98,11 @@ namespace Auvik.Api.Data
 		{
 			var sb = new StringBuilder();
 			sb.Append("class NetworkDetailsAttributes {\n");
-			sb.Append("  CollectorSelection: ").Append(CollectorSelection).Append("\n");
-			sb.Append("  ExcludedIpAddresses: ").Append(ExcludedIpAddresses).Append("\n");
-			sb.Append("  PrimaryCollector: ").Append(PrimaryCollector).Append("\n");
-			sb.Append("  Scope: ").Append(Scope).Append("\n");
-			sb.Append("  SecondaryCollectors: ").Append(SecondaryCollectors).Append("\n");
+			sb.Append("  CollectorSelection: ").Append(CollectorSelection).Append('\n');
+			sb.Append("  ExcludedIpAddresses: ").Append(ExcludedIpAddresses).Append('\n');
+			sb.Append("  PrimaryCollector: ").Append(PrimaryCollector).Append('\n');
+			sb.Append("  Scope: ").Append(Scope).Append('\n');
+			sb.Append("  SecondaryCollectors: ").Append(SecondaryCollectors).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}

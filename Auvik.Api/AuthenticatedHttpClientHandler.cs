@@ -27,10 +27,10 @@ namespace Auvik.Api
 		{
 			// See if the request has an authorize header
 			request.Headers.Authorization = _auth;
-			_logger.LogDebug($"{request.Method} {request.RequestUri}\n{request.Headers}{(request.Content is null ? null : "\n" + await request.Content.ReadAsStringAsync().ConfigureAwait(false))}");
+			_logger.LogDebug($"{request.Method} {request.RequestUri}\n{request.Headers}{(request.Content is null ? null : '\n' + await request.Content.ReadAsStringAsync().ConfigureAwait(false))}");
 
 			var response = await base.SendAsync(request, cancellationToken).ConfigureAwait(false);
-			_logger.LogDebug($"{(int)response.StatusCode} {response.ReasonPhrase}\n{response.Headers}\n{(response.Content is null ? null : "\n" + await response.Content.ReadAsStringAsync().ConfigureAwait(false))}");
+			_logger.LogDebug($"{(int)response.StatusCode} {response.ReasonPhrase}\n{response.Headers}\n{(response.Content is null ? null : '\n' + await response.Content.ReadAsStringAsync().ConfigureAwait(false))}");
 
 			return response;
 		}
