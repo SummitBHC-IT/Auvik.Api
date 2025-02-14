@@ -138,7 +138,7 @@ namespace Auvik.Api.Data
 		/// </summary>
 		/// <value>The external ticket list associated to current alert message</value>
 		[DataMember(Name = "externalTicket", EmitDefaultValue = false)]
-		public List<AlertAttributesExternalTicket> ExternalTicket { get; set; }
+		public List<AlertAttributesExternalTicket>? ExternalTicket { get; set; }
 
 		/// <summary>
 		/// This alert's name
