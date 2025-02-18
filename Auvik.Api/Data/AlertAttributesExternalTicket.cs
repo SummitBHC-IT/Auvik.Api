@@ -114,8 +114,8 @@ namespace Auvik.Api.Data
 		/// The system of external ticket
 		/// </summary>
 		/// <value>The system of external ticket</value>
-		[DataMember(Name = "system", EmitDefaultValue = false)]
-		public SystemEnum? System { get; set; }
+		//[DataMember(Name = "system", EmitDefaultValue = false)]
+		//public SystemEnum? System { get; set; }									// I had to disable this because the enum converter suddenly stopped working and I couldn't figure out a fix. We're not using this field anyway.
 
 		/// <summary>
 		/// The unique identifier for the external ticket
@@ -133,10 +133,7 @@ namespace Auvik.Api.Data
 			var sb = new StringBuilder();
 			sb.Append("class AlertAttributesExternalTicket {\n");
 			sb.Append("  Id: ").Append(Id).Append('\n');
-			if (System != null)
-			{
-				sb.Append("  System: ").Append(System).Append('\n');
-			}
+			//sb.Append("  System: ").Append(System).Append('\n');
 			sb.Append("}\n");
 			return sb.ToString();
 		}
